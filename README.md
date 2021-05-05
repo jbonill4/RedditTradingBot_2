@@ -21,11 +21,11 @@ Fill in config.py with your own personal Reddit username API ID/Secret, and Bina
 - [How to create Binance API Key](https://www.binance.com/en/support/faq/360002502072)
 - [How to create Reddit API Key](https://github.com/reddit-archive/reddit/wiki/OAuth2)
 
-Specify which cryptocurrency you would like to trade and the bounds for the RSI. The code is preset to [Dogecoin(DOGE)](https://dogecoin.com/) and an upperbound of 70 and lowerbound of 30. In order to switch coins the folowing need to be changed accordingly:
+Specify which cryptocurrency you would like to trade and the bounds for the RSI. The code is preset to [Dogecoin(DOGE)](https://dogecoin.com/), an upperbound of 70, and a lowerbound of 30. In order to switch coins and/or follow a non-traditional rsi strategy, the folowing need to be changed accordingly:
 - **TRADE_SYMBOL**
 - **reddit.subreddit()**
 - **UPPER_BAND**
 - **LOWER_BAND**
 
 Run program:
-- **python reddittradingbot1.py**
+- **python rsisentimentbot.py**
